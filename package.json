@@ -1,5 +1,6 @@
 {
   "name": "vuepress-starter",
+  "homepage": "https://LeanNetwork.github.io/docs",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {

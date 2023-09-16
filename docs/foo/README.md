@@ -1,8 +1,8 @@
 ---
-sidebar: auto
+sidebarDepth: 2
 ---
 
-# h11111
+# foo home
 ffgfggff
 ## h2
 dfsdsddsfsfs
