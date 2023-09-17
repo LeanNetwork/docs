@@ -3,7 +3,7 @@ home: true
 # heroImage: /hero.png
 heroText: Hero 标题
 tagline: Hero 副标题
-actionText: 李苏豫 →
+actionText: 干就完了 →
 actionLink: /guide/
 features:
 - title: 简洁至上
