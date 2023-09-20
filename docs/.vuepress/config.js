@@ -1,22 +1,30 @@
 module.exports = {
-    title: '你好，小奇',
+    title: '你好，程序员小奇',
     description: 'Just playing around',
     base: '/docs/',
     themeConfig: {
         // logo: '/assets/img/logo.png',
         nav: [
             { text: '首页', link: '/' },
-            { text: '指南', link: '/guide/' },
-            { text: '插件', link: '/foo/' },
+            // { text: '开发笔记', link: '/guide/' },
             {
-                text: '安装',
-                ariaLabel: 'install',
+                text: '开发笔记',
+                ariaLabel: 'dev notes',
                 items: [
-                  { text: '子菜单1', link: '/foo/one/' },
-                  { text: '子菜单2', link: '/bar/one/' }
+                  { text: 'javascript', link: '/notes/js' },
+                  { text: 'java', link: '/notes/java/' }
                 ]
-            },
-            { text: 'External', link: 'https://google.com' },
+            },            
+            { text: '插件', link: '/foo/' },
+            // {
+            //     text: '安装',
+            //     ariaLabel: 'install',
+            //     items: [
+            //       { text: '子菜单1', link: '/foo/one/' },
+            //       { text: '子菜单2', link: '/bar/one/' }
+            //     ]
+            // },
+            // { text: 'External', link: 'https://google.com' },
         ],
         // 这种方式只支持一种侧边栏，页面可以选择用或者不用
         // sidebar: [
